@@ -4,8 +4,7 @@ module driver_74ch595(
 Clk,
 Reset_n,
 SEL,
-SEG
-,
+SEG,
 DIO,
 SRCLK,
 RCLK
