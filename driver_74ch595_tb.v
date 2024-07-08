@@ -20,12 +20,9 @@ driver_74ch595 driver_74ch595_Ins(
 .RCLK(RCLK)
 );
 
-
 initial begin
-
 SEL=8'b0010_1110;
 SEG=8'b1110_1110;
-
 Clk=0;
 Reset_n=0;
 #17;
@@ -35,7 +32,6 @@ $stop;
 end
 
 always #10 Clk=!Clk;
-
 endmodule
 
 
